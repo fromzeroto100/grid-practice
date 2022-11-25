@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    background-color: aqua;
+    grid-template-areas: auto;
+}
+
