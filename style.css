@@ -5,9 +5,24 @@
 .grid-container {
     display: grid;
     background-color: aqua;
-    grid-template-areas: auto;
-    row-gap: 10px;
-    column-gap: 10px;
+    grid-template-areas: ;
+    gap: 10px;
+    
 }
+.grid-container >div {
+    background-color: rgba(40, 19, 163, 0.5);
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.grid-item1 {
+    grid-column: 1/-1;
+}
+.grid-item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
 
 
